@@ -230,7 +230,7 @@ header .header-content h1 {
         font-weight: 400;
     }
     header .header-content {
-        top: 20%;
+        top: 16%;
     }
 }
 
@@ -1051,7 +1051,8 @@ th {
 
 @media (max-width:768px) {
     .copyright .container {
-        justify-content: center;
+        display:block;
+        text-align:center;
     }
     .copyright p {
         margin-bottom: 15px
